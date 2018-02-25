@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="tretana.games" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="tretana.games" version="3.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>ABC Animals</name>
     <description>ABC Animals - graphically rich educational game, created to help your children learn letters of the English alphabet</description>
     <author email="tretanagames@.gmail.com" href="http://games.tretana.com/">Tretana</author>

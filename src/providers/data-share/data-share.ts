@@ -46,7 +46,7 @@ export class DataShareProvider {
   }
 
   playLetterAudio() {
-    let mediaFile =  "assets/audio/child/" + this.currentLetter.id +".mp3";
+    let mediaFile =  "assets/audio/child/" + this.currentLetter.id +".wav";
 
     this.nativeAudio.preloadSimple(this.currentLetter.id, mediaFile).then(()=> {
       console.log("Preload Success");
@@ -63,7 +63,7 @@ export class DataShareProvider {
 
 
   playAnimalAudio() {
-    let mediaFile =  "assets/audio/animals/" + this.currentLetter.id +".mp3";
+    let mediaFile =  "assets/audio/animals/" + this.currentLetter.id +".wav";
 
     this.nativeAudio.preloadSimple(this.currentLetter.id + "_animal", mediaFile).then(()=> {
       // console.log("Preload Success");
